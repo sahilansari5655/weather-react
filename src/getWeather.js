@@ -19,7 +19,7 @@ class GetWeather extends Component {
     }
 
     getPosts = () => {
-        let API_KEY = 'a9de0692a16581e5f6d5085ba51777d2';
+        let API_KEY = 'YOUR API KEY';
         let URL = `https://api.openweathermap.org/data/2.5/forecast?q=${this.state.city}&appid=${API_KEY}`;
         let icon;
 
